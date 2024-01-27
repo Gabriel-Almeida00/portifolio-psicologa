@@ -4,7 +4,6 @@ section {
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-  position: relative;
 
   .main-content {
     display: flex;
@@ -19,16 +18,31 @@ section {
       font-size: 16px;
       color: #151717;
     }
-    p::before {
-      content: "";
-      position: absolute;
-      height: 80px;
-      width: 4px;
-      background-color: #5222D0;
-      left: -10px;
+  }
+
+  .project-content {
+    background-color: #F0F0F0;
+    padding: 10px;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    span {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      color: #151717;
+    }
+
+    h6 {
+      margin: 0;
     }
   }
 }
+
 
 @media (min-width: 1080px) {
   section {
@@ -37,11 +51,11 @@ section {
 
     .main-content {
       align-items: flex-start;
-      max-width: 100%;
+      max-width: 50%;
+    }
 
-      h1 {
-        font-size: 56px;
-      }
+    .project-content{
+
     }
   }
 }

@@ -6,6 +6,7 @@ import {BtnPrimaryComponent} from "../../shared/btn-primary/btn-primary.componen
 import {MainSectionComponent} from "../../shared/main-section/main-section.component";
 import {MainAnimationComponent} from "../../shared/main-animation/main-animation.component";
 import {AbouteMeSectionComponent} from "../../shared/aboute-me-section/aboute-me-section.component";
+import {ProjectsSectionComponent} from "../../shared/projects-section/projects-section.component";
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {AbouteMeSectionComponent} from "../../shared/aboute-me-section/aboute-me
     BtnPrimaryComponent,
     MainSectionComponent,
     MainAnimationComponent,
-    AbouteMeSectionComponent
+    AbouteMeSectionComponent,
+    ProjectsSectionComponent
   ],
   imports: [
     BrowserModule,
