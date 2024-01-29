@@ -7,6 +7,7 @@ import {MainSectionComponent} from "../../shared/main-section/main-section.compo
 import {MainAnimationComponent} from "../../shared/main-animation/main-animation.component";
 import {AbouteMeSectionComponent} from "../../shared/aboute-me-section/aboute-me-section.component";
 import {ProjectsSectionComponent} from "../../shared/projects-section/projects-section.component";
+import {SocialMediasComponent} from "../../shared/social-medias/social-medias.component";
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {ProjectsSectionComponent} from "../../shared/projects-section/projects-s
     MainSectionComponent,
     MainAnimationComponent,
     AbouteMeSectionComponent,
-    ProjectsSectionComponent
+    ProjectsSectionComponent,
+    SocialMediasComponent
   ],
   imports: [
     BrowserModule,
