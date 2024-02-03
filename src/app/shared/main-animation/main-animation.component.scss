@@ -1,9 +1,12 @@
-svg {
+img {
   width: 298px;
+  border-radius: 50%;
 }
 
+
 @media (min-width: 1080px) {
-  svg {
-    width: 350px;
+  img {
+    width: 300px;
+
   }
 }
